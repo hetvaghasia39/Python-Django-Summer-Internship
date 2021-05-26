@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/register.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div id="link">
+        <p>
+            <a href="div_table.html">Click here</a> to see div/table example
+        </p>
+    </div>
+    <form action="">
+        <div class="form">
+            <h1>Registration</h1>
+            <br><br>
+            <label for="name"><b>Name</b></label>
+            <br>
+            <input class="inp" type="text" placeholder="Enter Name" name="name" id="name" required>
+            <br><br>
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input class="inp" type="email" placeholder="Enter Email" name="email" id="email" required>
+            <br><br>
+            <label for="contact"><b>Contact No</b></label>
+            <br>
+            <input class="inp" type="tel" placeholder="Enter Contact no" name="contact" id="contact" required>
+            <br><br>
+            <label for="gender"><b>Gender</b></label>
+            <br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="college"><b>College Name</b></label>
+            <br>
+            <input class="inp" type="text" placeholder="Enter college" name="college" required>
+            <br><br>
+            <label for="branch"><b>Branch</b></label>
+            <br>
+            <select name="branch" id="drop">
+                <option value="default">Select Branch</option>
+                <option value="1">CE</option>
+                <option value="2">IT</option>
+                <option value="3">BCA</option>
+                <option value="4">BSc(IT)</option>
+            </select>
+            <br><br>
+            <label for="sem"><b>Semester</b></label>
+            <br>
+            <select name="sem" id="drop">
+                <option value="default">Select sem</option>
+                <option value="2nd">2nd</option>
+                <option value="4th">4th</option>
+                <option value="6th">6th</option>
+                <option value="8th">8th</option>
+            </select>
+            <br><br>
+            <label><b>Skills</b></label>
+            <br>
+            <input type="checkbox" name="python" id="check">
+            <label for="python">Python Django</label>
+            <br>
+            <input type="checkbox" name="android" id="check">
+            <label for="android">Android & flutter</label>
+            <br>
+            <input type="checkbox" name="PHP" id="check">
+            <label for="PHP">PHP with Laravel</label>
+            <br>
+            <input type="checkbox" name="pythonds" id="check">
+            <label for="pythonds">Python for Data Science</label>
+            <br>
+            <button type="submit" class="signup">Submit</button>
+            <br><br>
+        </div>
+    </form>
+    <br><br>
+    <div id="link">
+        <p>
+            <a href="div_table.html">Click here</a> to see div/table example
+        </p>
+    </div>
+</body>
+</html>
