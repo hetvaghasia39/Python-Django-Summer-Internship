@@ -1,0 +1,60 @@
+
+Step 1:
+    Install Python
+    Install a Python Virtual Environment
+    Python Environment Variable
+    C:\Users\user\AppData\Local\Programs\Python\Python38-32\Scripts\
+    C:\Users\user\AppData\Local\Programs\Python\Python38-32\
+
+About PIP ()
+    pip is the standard package manager for Python.It allows you to 
+    install and manage additional packages that are not part of the
+    Python standard library.The concept of a package manager might be
+    familiar other languages.
+        * PHP uses Composer
+        * JavaScript uses npm for package management,
+        * Ruby uses gem, and
+        * .NET use NuGet.
+    In Python, pip has become the standard package manager.pip has been
+    included with the Python installer since versions 3.4 for Python 3
+    and 2.7.9 for Python 2.
+
+PIP commands:
+
+    *pip help
+    *pip list
+    *pip install <packagename>
+    *pip uninstall <packagename>
+    *pip upgrade <packagename>
+    *pip show <packagename>
+    *python -m pip install --upgrade pip
+        C:\Users\user\AppData\Local\Programs\Python\Python39\Lib\site-packages
+
+Step 4:
+    Install Django
+        * pip install django
+
+    Install Specific Version
+        * pip install django==3.1.5
+
+    Upgrade New Version
+        * pip install django --upgrade
+
+    Uninstall Django
+        * pip uninstall django
+
+    Show Package Information
+        * pip show django
+
+    Django Check Version
+        * python -m django --version
+
+Step 5:
+Create new project
+    command:- django-admin startproject projectname
+
+Run project
+    command:- python manage.py runserver
+
+Run server on different port
+    command:- python manage.py runserver 8000

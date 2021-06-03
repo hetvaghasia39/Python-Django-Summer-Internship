@@ -1,0 +1,28 @@
+Introduction
+    Django is a free and open source web application framework, written in Python.
+    A web framework is a set of components that helps you to develop websites 
+    faster and easier. Django framework follows the DRY (Don’t Repeat Yourself)
+    principle. It provides support for multiple databases such as 
+    PostgreSQL, MySQL, SQLite, and Oracle
+
+History
+    Django was developed by Adrian Holovaty and Jacob Kaplan-moss at World 
+    Online News for efficient development. The framework was named after
+    famous Guitarist “Django Reinhardt”
+
+Features
+    * You need to develop a web app or API backend.
+    * You need to move fast, deploy fast, and also make changes as you move ahead.
+    * The app must be secure from most common vulnerabilities and attacks by default. For example CSRF, SQL Injection, XSS, Clickjacking, etc.
+    * You might integrate cutting edge tech in future, eg. Machine Learning.
+
+Django follows MVT not MVC arcitecture
+
+    Model
+        * Defines the data structure.
+        * Takes care for querying the database.
+    View
+        * Defines what data should be presented
+        * Returns HTTP response
+    Template
+        * Renders the data in suitable format – HTML/XML/etc…
