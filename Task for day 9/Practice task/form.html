@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form method = "post" action="/formprocess">
+            {% csrf_token %}
+            <h2>registration form</h2>
+            Name: <input type = "text" name="name" required/><br><br>
+            Email: <input type = "email" name="email" required/><br><br>
+            password: <input type = "password" name="password" required/><br><br>
+            Age: <input type = "number" name="age" required/><br><br>
+            Phone: <input type = "number" name="phone" minlength = "10" required /><br><br>
+            dob: <input type = "date" name="dob" required/><br><br>
+            gender: <br>male: <input type = "radio" id = "male" name="gender" required/>  female: <input type="radio" id = "female" name="gender"required/><br><br>
+            city: <input type = "text" name="city" required/><br><br>
+            skill: <br>web: <input type = "checkbox" id="web" name="skill" required/><br>
+            app: <input type = "checkbox" id="app" name="skill" required/><br>
+            ai: <input type = "checkbox" id="ai" name="skill" required/><br><br>
+            sem: <input type = "number" name="sem" required/><br><br>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
